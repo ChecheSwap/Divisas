@@ -61,9 +61,7 @@ public class DivisasBase extends javax.swing.JPanel {
         
                 if(this.cborigen.getSelectedIndex() != -1 && this.cbdest.getSelectedIndex() != -1 && this.txtSource.getText() != ""){
 
-                fondo = 0.0;
-
-                String res = this.cborigen.getSelectedItem().toString()+this.cbdest.getSelectedItem().toString();                      
+                fondo = 0.0;                                      
 
                 this.valbase = 0.0;
 
